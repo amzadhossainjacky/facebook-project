@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #3B5998;
+    padding: 10px;
+}
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+/* font */
+
+.container{
+
+box-sizing: border-box;
+
+width: 1000px;
+
+margin: 0 auto;
+
+overflow: hidden;
+}
+.logo {
+
+float: left;
+
+width: 50%;
+
+}
+
+.logo a{
+
+font-family: 'Rubik', sans-serif;
+font-size: 40px;
+
+text-decoration: none;
+
+color: #fff;
+
+font-weight: 900;
+
+margin-top: 15px;
+display: block;
+font-stretch: semi-condensed;
+font-weight: bolder;
+}
+
+
+
+
+.login {
+    width: 50%;
+    float: left;
+}
+
+.login form {
+
+}
+
+.login ul{text-align: right;}
+
+.login ul li {
+
+list-style: none;
+
+/* float: left; */
+
+/* display: block; */
+
+margin-right: 10px;
+
+display: inline-block;
+
+vertical-align: top;
+}
+
+.login label{
+
+display: block;
+
+text-align: left;
+
+font-size: 14px;
+
+color: #fff;
+
+margin-left: 1px !important;
+
+margin: 3px 0;
+}
+
+.login input {
+
+padding: 4px 6px;
+
+border: .3px solid #000;
+
+margin-bottom: 2px;
+}
+
+.login a{
+
+display: block;
+font-size: 13px;
+text-align: left;
+
+color: #83B4D4;
+text-decoration: none;
+}
+
+.login_button {
+    
+margin-top: 22px;
+    
+border-radius: 1px !important;
+    
+border: 1px solid #375bbf !important;
+    
+background-color: #375bbf;
+    
+color: #fff;
+
+margin-right: 0 !important;
+display: block;
+}
+
+
+
+
+
+/* sign-up */
+
+.sign-section{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,d5dae9+100 */
+
+height: 86vh;
+
+background: #fefefe; /* Old browsers */
+
+background: -moz-linear-gradient(top, #fefefe 0%, #d5dae9 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top, #fefefe 0%,#d5dae9 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom, #fefefe 0%,#d5dae9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d5dae9',GradientType=0 ); /* IE6-9 */
+}
+
+.sign_up-content{
+
+width: 50%;
+
+float: left;
+}
+
+.sign_up-content h4{
+    
+color: #0e385f;
+    
+font-size: 20px;
+    
+font-weight: bold;
+    
+line-height: 29px;
+    
+margin-top: 40px;
+    
+width: 450px;
+    
+word-spacing: -1px;
+}
+
+.sign_up-content img{
+    
+max-width: 100%;
+}
+
+.sign_up{
+
+    width: 48%;
+    float: right;
+}
+
+.sign_up h1{
+    
+font-size: 35px;
+    
+margin-top: 20px;
+}
+
+.sign_up p{
+    
+font-size: 18px;
+    
+/* margin: 14px 0 12px 0; */
+    
+margin-top: 10px;
+}
+
+.sign_up form{
+    
+}
+
+.sign_up form ul{
+    
+}
+
+.sign_up form ul li{
+    
+/* float: left; */
+    
+list-style: none;
+    
+/* width: 50%; */
+    
+margin-right: 10px;
+    
+width: 47%;
+    
+display: inline-block;
+}
+
+.sign_up form ul li input{
+    
+/* width: 98%; */
+    
+padding: 8px;
+    
+margin: 10px 0 5px 0;
+    
+border-radius: 2px;
+    
+border: 1px solid #c7d3ea !important;
+}
+
+.sign_up form input{
+    
+width: 100%;
+    
+padding: 8px;
+    
+margin: 10px 0;
+    
+border-radius: 2px;
+    
+border: 1px solid #c7d3ea !important;
+}
+
+.sign_up select{
+    
+padding: 8px;
+    
+margin: 5px 0;
+    
+border-radius: 2px;
+    
+border: 1px solid #c7d3ea !important;
+}
+
+.sign_up select option{
+    
+}
+
+.sign_up form a{
+    display: inline-block;
+    width: 177px;
+    line-height: 15px;
+    font-size: 13px;
+    margin-left: 12px;
+    color: #3B5998;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.sign_up form input[type="radio"]{width: auto;margin: 12px 0px;}
+
+.sign_up form span{
+    
+font-size: 12px;
+    
+/* width: 24%; */
+    
+display: block;
+    
+color: #999;
+    
+margin-top: 10px;
+    
+width: 379px;
+}
+
+.sign_up form span a{
+    
+width: auto;
+    
+margin-left: 0;
+    
+text-decoration: none;
+    
+/* display: block; */
+    
+vertical-align: baseline;
+}
+
+
+.signup_button{
+
+width: 180px !important;
+
+border-radius: 5px !important;
+
+border: 1px solid #000;
+
+margin: 10px 0 !important;
+
+color: #fff;
+
+font-size: 18px;
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#83c46c+0,5b8e47+100 */
+background: #83c46c; /* Old browsers */
+background: -moz-linear-gradient(top, #83c46c 0%, #5b8e47 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #83c46c 0%,#5b8e47 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #83c46c 0%,#5b8e47 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#83c46c', endColorstr='#5b8e47',GradientType=0 ); /* IE6-9 */
+}
+
+.createpage {
+    vertical-align: bottom;
+}
